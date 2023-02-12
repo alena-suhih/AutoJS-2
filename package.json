@@ -4,8 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint",
+    "prettier": "prettier"
   },
   "author": "Alena",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
 }
